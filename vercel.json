@@ -1,22 +1,17 @@
-{
-    "functions": {
-      "api/*": {
-        "runtime": "vercel-python@0.24.0",
-        "memory": 1024
-      }
-    },
-    "routes": [
-      { "src": "/api/(.*)", "dest": "api/$1" },
-      { "src": "/static/(.*)", "dest": "/static/$1" },
-      { "src": "/(.*)", "dest": "api/index.py" }
+
+  {
+    "version": 2,
+    "builds": [
+        {
+            "src": "./index.py",
+            "use": "@vercel/static-build"
+        }
     ],
-    "env": {
-      "FLASK_ENV": "production",
-      "FLASK_APP": "api/index.py"
-    },
-    "builds":[ {
-      "src": "api",
-      "use": "@vercel/static-build"
-    }]
-  }
-  
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }, 
+        { "src": "/static/(.*)", "dest": "/static/$1" }
+    ]
+}
