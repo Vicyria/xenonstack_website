@@ -4,7 +4,7 @@
     "builds": [
         {
             "src": "./index.py",
-            "use": "@vercel/static-build"
+            "use": "@vercel/python"
         }
     ],
     "routes": [
