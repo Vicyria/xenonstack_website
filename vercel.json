@@ -14,9 +14,9 @@
       "FLASK_ENV": "production",
       "FLASK_APP": "api/index.py"
     },
-    "builds": {
+    "builds":[ {
       "src": "api",
       "use": "@vercel/static-build"
-    }
+    }]
   }
   
