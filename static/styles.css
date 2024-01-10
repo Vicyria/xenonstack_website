@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, section, footer {
+    background-color: #121212; /* Deep purple color for the header, section, and footer */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.login-form {
+    width: 300px; /* Set the desired width */
+    text-align: center;
+    margin: auto;
+}
+
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    margin-bottom: 8px;
+    color: #673AB7; /* Deep purple color for labels */
+}
+
+.login-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.login-button {
+    background-color: #673AB7; /* Deep purple color for the button */
+    color: #fff; /* White text color */
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-button:hover {
+    background-color: #9575CD; /* Lighter shade of purple on hover */
+}
+.signup-form {
+    width: 300px; /* Set the desired width */
+    text-align: center;
+    margin: auto;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin-bottom: 8px;
+    color: #673AB7; /* Deep purple color for labels */
+}
+
+.signup-form input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.signup-button {
+    background-color: #673AB7; /* Deep purple color for the button */
+    color: #fff; /* White text color */
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.signup-button:hover {
+    background-color: #9575CD; /* Lighter shade of purple on hover */
+}
+
+
+nav {
+    background-color: #121212; /* Deep purple color for the navigation bar */
+}
+
+/* styles.css */
+
+nav {
+    background-color: #121212; /* Deep purple color for the navigation bar */
+    border-bottom: 2px solid #fff; /* White border at the bottom */
+    padding: 10px 0; /* Top and bottom padding */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth transition for color changes */
+}
+
+nav a:hover {
+    color: #9575CD; /* Lighter shade of purple on hover */
+}
+
+
+.main-section {
+    margin-top: 20px;
+}
+.sneaker-images {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+}
+
+.sneaker-images img {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Crop the image while maintaining aspect ratio */
+    margin-right: 20px; /* Optional: Add margin between images */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sneakers Store</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Us</h1>
+        </div>
+    </header>
+
+    <section class="main-section">
+        {% include 'nav.html' %}
+        <div class="container">
+            <h2>Our Story</h2>
+            <p>
+                Welcome to Sneakers Store, your go-to destination for the latest and trendiest sneakers. 
+                Our passion for sneakers drives us to curate a collection that speaks to style, comfort, 
+                and individuality. We believe that sneakers are not just a fashion statement but a lifestyle.
+            </p>
+
+            <h2>Our Mission</h2>
+            <p>
+                At Sneakers Store, we are on a mission to provide sneaker enthusiasts with a diverse 
+                range of high-quality footwear. Our team is dedicated to staying ahead of the fashion 
+                curve, ensuring that our customers have access to the latest releases and timeless classics.
+            </p>
+
+            <h2>Contact Us</h2>
+            <p>
+                Have questions or feedback? Reach out to us at <a href="mailto:info@sneakersstore.com">info@sneakersstore.com</a>.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sneakers Store. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
